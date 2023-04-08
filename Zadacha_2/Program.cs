@@ -7,7 +7,7 @@ Console.Write("Введите первое число для сравнения:
 int.TryParse(Console.ReadLine(), out a);
 Console.Write("Введите второе число для сравнения: ");
 int.TryParse(Console.ReadLine(), out b);
-if ((a!=b) && (a>0) && (b>0))
+if ((a!=b))
 {
     if (a>b)
     {
